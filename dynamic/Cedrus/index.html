@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Admin Dashboard</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="sidebar">
+        <div class="nav-wrapper">
+            <div class="logo">
+                <a href="index.html"><img src="images/cedrus.svg" alt="Cedrus logo"></a>
+            </div>
+            <div class="menu">
+                <div class="menu-block">
+                    <h3>Членство</h3>
+                    <hr class="hr-dashed">
+                    <div class="menu-block-items">
+                        <div class="menu-block-items-wrapper">
+                            <a href="#">
+                                <img src="images/payouts_icon.svg" alt="payouts">
+                                <span class="text">Счета и платежи</span>
+                            </a>
+                        </div>
+                        <div class="menu-block-items-wrapper">
+                            <a href="#">
+                                <img src="images/transactions_icon.svg" alt="transactions">
+                                <span class="text">Транзакции</span>
+                            </a>
+                        </div>
+                        <div class="menu-block-items-wrapper">
+                            <a href="#">
+                                <img src="images/customers_icon.svg" alt="customers">
+                                <span class="text">Члены</span>
+                            </a>
+                        </div>
+                        <div class="menu-block-items-wrapper">
+                            <a href="#">
+                                <img src="images/balance_icon.svg" alt="balance">
+                                <span class="text">Взносы</span>
+                            </a>
+                        </div>
+                        <div class="menu-block-items-wrapper">
+                            <a href="#">
+                                <img src="images/subscriptions_icon.svg" alt="subscriptions">
+                                <span class="text">Голосование</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-block">
+                    <h3>Маркет задач</h3>
+                    <hr class="hr-dashed">
+                    <div class="menu-block-items">
+                        <div class="menu-block-items-wrapper">
+                            <a href="#">
+                                <img src="images/task_icon.svg" alt="payouts">
+                                <span class="text">Трудовые</span>
+                            </a>
+                        </div>
+                        <div class="menu-block-items-wrapper">
+                            <a href="#">
+                                <img src="images/task_icon.svg" alt="transactions">
+                                <span class="text">Задачи в работе</span>
+                                <span class="active-tasks">1</span>
+                            </a>
+                        </div>
+                        <div class="approve-block">
+                            <button class="button-warn" style="width:100%;white-space: nowrap;">
+                                <span class="text">Согласовать</span>
+                                <span class="waiting-tasks">123</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAVBAR -->
+
+    <div class="workspace">
+        <a class="sidebarBtn">HIDE</a>
+    </div>
+
+
+
+</body>
+<script>
+    let sidebar = document.querySelector(".sidebar");
+    let sidebarBtn = document.querySelector(".sidebarBtn");
+    sidebarBtn.onclick = function () {
+        sidebar.classList.toggle("active");
+    }
+</script>
+
+</html>
