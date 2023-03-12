@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ol,
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            display: flex;
+            list-style: none;
+        }
+        .card-wrapper {
+            display: grid;
+            grid-template-columns: 300px 300px;
+            gap: 40px;
+        }
+        .card {
+            width: 300px;
+            text-align: center;
+            background-color: azure;
+        }
+        .card ul {
+            display: flex;
+
+            flex-direction: column;
+        }
+    </style>
+    <div class="card-wrapper">
+        <div class="card">
+            <h3>Новые поступления</h3>
+            <ul>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Категории документов</h3>
+            <ul>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

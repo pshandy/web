@@ -1,0 +1,9 @@
+.container {
+    border: 1px solid black;
+}
+
+.box {
+    border: 1px solid palegreen;
+    margin: 10px;
+    display:inline;
+}

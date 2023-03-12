@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookSpace</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="homepage-link" href="index.html">
+                    <img class="homepage-link__img" src="images/homepage-logo.svg" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+                        <li class="menu__item"><a href="help.html" class="menu__link">Помощь</a></li>
+                    </ul>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="favorites.html" class="menu__link">Избранное</a></li>
+                        <li class="menu__item"><a href="myorders.html" class="menu__link">Мои заказы</a></li>
+                        <li class="menu__item"><a href="auth.html" class="menu__link">Войти/Зарегистрироваться</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <section class="search">
+            <div class="container">
+                <div class="search__inner">
+                    <a class="search__logo" href="">
+                        BookSpace
+                    </a>
+                    <div class="search-nav">
+                        <form class="search-form" action="/action_page.php">
+                            <input class="search-form__input" type="text" name="search">
+                            <button class="button" type="submit">Поиск</button>
+                        </form>
+                        <button class="button button-disabled" onclick="location.href='http://www.example.com'"
+                            type="button">Продвинутый поиск</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="faq">
+        <div class="container">
+            <div class="faq__inner">
+                <h1>Amet consectetur adipisicing elit?</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In distinctio explicabo dolore illo quos sunt ut non dolores vitae nemo fugiat consequatur dolor minus ipsam expedita eum voluptatibus, mollitia saepe.
+                <h1>Lorem ipsum dolor sit amet?</h1>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quas pariatur quo placeat quisquam molestiae nostrum saepe non fuga, adipisci sint, omnis reprehenderit aspernatur voluptatibus molestias est ut! Voluptates, rem.
+                <h1>Lorem ipsum dolor sit amet consectetur?</h1>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus tenetur, non quis corrupti, repudiandae quisquam sequi, iure eum quia magni officia. Quas velit eum dignissimos odio esse molestiae tempora voluptate.
+                <h1>Lorem, ipsum dolor?</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex optio natus eaque modi libero, fugit quasi ea dolorum assumenda atque. Expedita ipsam eius molestiae recusandae nam cupiditate blanditiis accusantium ab.
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer-nav">
+                    <ul class="footer-menu">
+                        <li class="footer-menu__item"><a href="index.html">Главная</a></li>
+                        <li class="footer-menu__item"><a href="contacts.html">Контакты</a></li>
+                        <li class="footer-menu__item"><a href="help.html">Помощь</a></li>
+                        <li class="footer-menu__item"><a href="favorites.html">Избранное</a></li>
+                        <li class="footer-menu__item"><a href="myorders.html">Мои заказы</a></li>
+                        <li class="footer-menu__item"><a href="advancedsearch.html">Продвинутый поиск</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr align="center" width="300" size="1" color="#550D0E" />
+            <span>BookSpace</span>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
